@@ -9,7 +9,6 @@ body {
 }
 .header {
   background-color: #007765;
-  /* border: 1px solid yellow; */
 }
 
 .header__wrapper {
@@ -20,13 +19,6 @@ body {
   padding-top: 0.9%;
   position: sticky;
   top: 0;
-  /* border: 1px solid yellow; */
-}
-/*Header style end*/
-
-.main_one_page_img {
-  width: 100%;
-  /* border: 1px solid red; */
 }
 
 .text {
@@ -34,10 +26,14 @@ body {
   line-height: 28px;
   color: #ffffff;
   padding-bottom: 1.4%;
-  /* border: 1px solid red; */
 }
-h2,
-.text_one_page {
+/*Header style end*/
+/* Main style start */
+.main_one_page_img {
+  width: 100%;
+}
+
+.content_main_page_1 {
   font-size: 72px;
   display: inline-block;
   border: 2px solid rgb(240, 11, 125);
@@ -46,8 +42,6 @@ h2,
   color: #ffffff;
 
   position: absolute;
-  /* z-index: 2; */
 }
-.main {
-  /* border: 1px solid #00ff2a; */
-}
+
+/* Main style end  */
