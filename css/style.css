@@ -31,7 +31,7 @@ body {
 /*Header style end*/
 
 /* Main style start */
-.main_one_page_img {
+.page_img {
   width: 100%;
 }
 
@@ -44,6 +44,21 @@ body {
   color: #ffffff;
 
   position: absolute;
+}
+.content {
+  font-family: Roboto;
+  font-style: normal;
+
+  border: solid red;
+  /* сверху справа снизу слева */
+  margin: 140px 450px 450px 90px;
+}
+.text_main {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 37px;
+
+  color: #000000;
 }
 
 /* Main style end  */
