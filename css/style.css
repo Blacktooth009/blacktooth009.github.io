@@ -51,7 +51,7 @@ body {
 
   border: solid red;
   /* сверху справа снизу слева */
-  margin: 140px 450px 450px 90px;
+  /* margin: 140px 450px 450px 90px; */
 }
 .text_main {
   font-weight: normal;
