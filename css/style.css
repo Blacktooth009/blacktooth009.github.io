@@ -34,7 +34,7 @@ body {
   line-height: 28px;
   color: #ffffff;
   padding-bottom: 1.4%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 h2,
 .text_one_page {
@@ -49,5 +49,5 @@ h2,
   /* z-index: 2; */
 }
 .main {
-  border: 1px solid #00ff2a;
+  /* border: 1px solid #00ff2a; */
 }
