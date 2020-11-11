@@ -2,6 +2,7 @@ body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
+  
 }
 /*Header style start*/
 .wrapper {
@@ -22,7 +23,7 @@ body {
   top: 0;
 }
 
-.text {
+.text_main {
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
@@ -31,8 +32,37 @@ body {
 /*Header style end*/
 
 /* Main style start */
+.text_heading {
+  
+/* font-style: normal;
+ font-weight: 500;
+font-size: 64px;
+line-height: 75px; */
+text-align: center;
+color: #007765;
+}
+.border_test{
+  border: 6px solid rgb(26, 11, 240);
+  /* box-sizing: border-box;
+  max-width: 1219px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 55px;
+  padding-right: 55px; */
+}
+.text_image_blok_ {
+  font-size: 72px;
+  color: #ffffff;
+  text-align: center;
+}
 .page_img {
-  width: 100%;
+
+  /* padding-top: 1px; */
+  /* padding-bottom: 128px; */
+  background-image: url("/img/Jumbotron.svg");
+  background-size: cover;
+  background-position: center center;
+ 
 }
 
 .content_main_page_1 {
@@ -46,14 +76,15 @@ body {
   position: absolute;
 }
 .content {
-  font-family: Roboto;
-  font-style: normal;
+ 
 
   border: solid red;
   /* сверху справа снизу слева */
   /* margin: 140px 450px 450px 90px; */
 }
 .text_main {
+  font-family: Roboto;
+  font-style: normal;
   font-weight: normal;
   font-size: 32px;
   line-height: 37px;
