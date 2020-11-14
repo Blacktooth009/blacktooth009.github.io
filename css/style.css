@@ -88,8 +88,19 @@ h1 {
   font-size: 14px;
 }
 
-
-
+.main_info_blok{
+  /* border: solid; */
+  /* margin-right: 330px; */
+  width: 413px;
+  /* display: block; */
+  
+}
+.block_text_project{
+  width: 487px;
+}
+.block_text_work{
+  width: 552px;
+}
 .main_info {
   /* border: solid 1px rgb(80, 141, 255); */
   padding: 100px 90px 100px 90px;
