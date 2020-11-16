@@ -6,7 +6,13 @@
 body {
   background-color: #f5f7fa;
   font-family: "Montserrat", sans-serif;
-  padding: 20px;
+  /* padding: 20px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  /* margin: 20px 30px 20px 10px; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 9px 20px rgb(180, 180, 180);
 }
 a {
   color: #757c85;
@@ -15,7 +21,9 @@ h3 {
   font-size: 22px;
   font-weight: 900;
 }
-
+b{
+  color: #1f1f1f;
+}
 h1 {
   font-size: 45px;
 }
@@ -91,19 +99,21 @@ h1 {
 .main_info_blok{
   /* border: solid; */
   /* margin-right: 330px; */
-  width: 413px;
+  /* width: 413px; */
   /* display: block; */
   
 }
 .block_text_project{
-  width: 487px;
+  /* width: 487px; */
 }
 .block_text_work{
-  width: 552px;
+  /* width: 552px; */
+  
 }
 .main_info {
   /* border: solid 1px rgb(80, 141, 255); */
   padding: 100px 90px 100px 90px;
+ 
 }
 .name_main_info {
   margin-top: 24px;
