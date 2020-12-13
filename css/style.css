@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
+
+body{
+    font-family: 'Langar', cursive;
+    background-color: black;
+}
+header{
+height: 1000px;
+display: flex;
+flex-wrap: wrap;
+}
+
+div{
+    
+    max-width: 800px;
+    margin: 0 auto;
+}
+h1{
+    color: rgb(5, 5, 5);
+}
