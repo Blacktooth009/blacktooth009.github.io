@@ -2,13 +2,13 @@
 
 body{
     font-family: 'Langar', cursive;
-    background-color: rgb(137, 137, 137);
+    background-color: rgb(193, 193, 193);
 }
-header{
+/* header{
 height: 1000px;
 display: flex;
 flex-wrap: wrap;
-}
+} */
 
 div{
     
