@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
+p{
+    text-align: center;
+}
 body{
     font-family: 'Langar', cursive;
     background-color: rgb(193, 193, 193);
 }
-/* header{
-height: 1000px;
-display: flex;
-flex-wrap: wrap;
-} */
-
-div{
-    
-    max-width: 800px;
-    margin: 0 auto;
+footer{
+   border: 2px solid rgb(236, 72, 154); 
 }
-h1{
-    color: rgb(5, 5, 5);
+.wrapper{
+    border: 2px solid rgb(0, 255, 60);
+    display: flex;
+}
+.border_style{
+    border: 2px solid rgb(13, 60, 248);
 }
