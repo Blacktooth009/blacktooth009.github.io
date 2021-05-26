@@ -1,19 +1,77 @@
 @import url('https://fonts.googleapis.com/css2?family=Langar&display=swap');
 
-p{
-    text-align: center;
-}
+
 body{
     font-family: 'Langar', cursive;
     background-color: rgb(193, 193, 193);
+     
 }
-footer{
-   border: 2px solid rgb(236, 72, 154); 
-}
-.wrapper{
-    border: 2px solid rgb(0, 255, 60);
+
+
+
+.header_wrapper{ /*flex контейнер*/
     display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    border: solid 1px yellow;
 }
-.border_style{
+
+
+/* добавления выделения для более наглядного примера */
+.lnk_img_logo{
     border: 2px solid rgb(13, 60, 248);
+}
+.img_logo{
+    max-width: 80px;
+}
+
+nav{
+    border: solid 2px;
+    padding: 0% 10% 0% 10%;   
+}
+.heder_menu{
+    padding: 0%;
+    font-size: 30px;
+    
+}
+ul{
+    margin: 0px;
+    list-style-type: none;
+    padding: 0%;
+}
+.name_page{
+     border: solid 2px rgb(255, 0, 0);
+     height: 100%;
+     transform: rotate(90deg);
+     margin-top: 21px;
+    
+}
+
+.display_wrapper{
+    display: flex;
+    justify-content: center;
+}
+.display_content{
+    border: double 10px rgb(0, 0, 0);
+    margin: 10px;
+    max-width: 300px;
+    min-height: 200px;
+}
+
+.key_wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.key_tell{
+    border: solid 1px rgb(56, 121, 56);
+    flex: 0 1 30%;
+    margin: 3px;
+   
+    
+    
+}
+.key_tell_6{
+    background-color: green ;
 }
