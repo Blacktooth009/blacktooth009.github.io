@@ -68,20 +68,28 @@ ul{
 .display_wrapper{
     display: flex;
     justify-content: center;
+   
+    max-height: 260px;
+   
 }
 .display_content{
     border: ridge 10px rgb(65, 65, 65);
     border-radius: 8px;
     margin: 10px;
-    max-width: 300px;
-    min-height: 200px;
+    min-width: 260px;
+    min-height: 210px;
     background-color: blanchedalmond;
+}
+.display_text{
+
 }
 
 .key_wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 60px 60px 60px;
+    margin: 4%;
+    
  
   
 }
@@ -94,5 +102,7 @@ ul{
    
 }
 footer{
-    border: solid 2px blue;
+    /* border: solid 2px blue; */
+    text-align: center;
+    
 }
