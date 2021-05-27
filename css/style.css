@@ -9,6 +9,7 @@ body{
 
 .page_wrapper{
     max-width: 300px;
+    min-height: 600px;
     margin: auto;
     border: inset 10px rgb(49, 46, 46) ;
     border-radius: 20px ;
@@ -68,19 +69,18 @@ ul{
 
 .key_wrapper{
     display: grid;
-    /* flex
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center; */
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-auto-rows: minmax(50px, auto); */
+    grid-template-rows: 60px;
+    
+ 
+  
 }
 .key_tell{
-    border: solid 1px rgb(56, 121, 56);
-    
-/*     
-    flex: 0 1 30%;
-    margin: 3px;
-    */
+    border: ridge 2px rgb(53, 53, 53);
+    border-radius: 4px ;
+    text-align: center;
+
     
     
 }
