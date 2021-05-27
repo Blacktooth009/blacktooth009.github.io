@@ -12,6 +12,8 @@ body{
      
 }
 
+
+
 .page_wrapper{
     max-width: 300px;
     min-height: 600px;
@@ -84,10 +86,13 @@ ul{
   
 }
 .key_tell{
-    border: ridge 2px rgb(53, 53, 53);
+    border: outset 10px ;
     border-radius: 7px ;
     text-align: center;
     font-family: Jura;
     background-color: blanchedalmond;
    
+}
+footer{
+    border: solid 2px blue;
 }
