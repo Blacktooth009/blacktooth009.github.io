@@ -7,6 +7,10 @@ body{
      
 }
 
+.page_wrapper{
+    max-width: 300px;
+    margin: auto;
+}
 
 
 .header_wrapper{ /*flex контейнер*/
@@ -14,6 +18,7 @@ body{
     flex-direction: row;
     justify-content: space-around; 
     border: solid 1px yellow;
+    align-items: center;
 }
 
 
@@ -43,7 +48,7 @@ ul{
      border: solid 2px rgb(255, 0, 0);
      height: 100%;
      transform: rotate(90deg);
-     margin-top: 21px;
+     
     
 }
 
@@ -72,6 +77,6 @@ ul{
     
     
 }
-.key_tell_6{
+.key_tell_5{
     background-color: green ;
 }
