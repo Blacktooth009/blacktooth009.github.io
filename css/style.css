@@ -3,9 +3,9 @@
 
 
 @font-face {
-    font-family: Jura;
-    src: url(/font/20783.ttf);
-}
+    font-family: 'mk90';
+    src:    url(/font/mk90.ttf) }
+
 body{
     
     font-family: 'Langar', cursive;
@@ -42,12 +42,16 @@ body{
 }
 
 nav{
-    border: solid 2px;
-    padding: 0% 10% 0% 10%;   
+    /* border: solid 2px; */
+    padding: 0% 10% 0% 10%; 
+
+   
 }
+
 .heder_menu{
     padding: 0%;
     /* font-size: 30px; */
+   
     
 }
 ul{
@@ -59,8 +63,6 @@ ul{
      border: solid 2px rgb(255, 0, 0);
      height: 100%;
      transform: rotate(90deg);
-     font-family: Jura;
-     font-weight: 800;
      
     
 }
@@ -79,6 +81,7 @@ ul{
     min-width: 260px;
     min-height: 210px;
     background-color: blanchedalmond;
+   font-family: mk90;
 }
 .display_text{
 
@@ -89,17 +92,25 @@ ul{
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 60px 60px 60px;
     margin: 4%;
+    gap: 5%;
     
  
   
 }
 .key_tell{
-    border: outset 10px ;
+    border: outset 6px ;
     border-radius: 7px ;
     text-align: center;
-    font-family: Jura;
     background-color: blanchedalmond;
+    font-size: 40px;
    
+}
+a:link{
+    text-decoration: none;
+}
+div.key_tell a{
+    color: black;
+    font-weight:bolder;
 }
 footer{
     /* border: solid 2px blue; */
