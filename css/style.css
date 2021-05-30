@@ -98,42 +98,7 @@ body{
 
 
 
-/* arrow start  */
 
-
-/* .menu_arrow_0{
-    width: 30px;
-    height: 30px;
-    border-top: 2px solid ;
-    border-right: 2px solid ;
-    transform:rotate(135deg);
-    margin: -6px 0px 0px 19px;
-}
-.menu_arrow_1{
-    width: 25px;
-    height: 25px;
-    border-top: 2px solid ;
-    border-right: 2px solid ;
-    transform:rotate(135deg);
-    margin: -20px 0px 0px 22px;
-    
-}
-.menu_arrow_2{
-    width: 20px;
-    height: 20px;
-    border-top: 2px solid ;
-    border-right: 2px solid ;
-    transform:rotate(135deg);
-    margin: -15px 0px 0px 24px;
-    
-}
-.menu_arrow_3{
-
-    margin: 0px 0px 0px 15px;
-    
-} */
-
-/* arrow end */
 nav{
     display: none;
     border: solid 2px;
@@ -141,12 +106,7 @@ nav{
 
 }
 
-.heder_menu{
-    padding: 0%;
-    /* font-size: 30px; */
-   
-    
-}
+
 ul{
     margin: 0px;
     list-style-type: none;
@@ -177,6 +137,8 @@ ul{
    font-family: mk90;
 }
 .display_text{
+    text-align: center;
+font-size: 18px;
 
 }
 
