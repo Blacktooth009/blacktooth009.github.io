@@ -83,46 +83,32 @@ body{
     border-right: 2px solid ;
     transform:rotate(135deg);
     margin: -6px 0px 0px 19px;
-    
-    
-    /* margin-right: 60px; */
-   
-   
-    /* первый вариант */
-    /* vertical-align: middle;
-	margin: 30% 0% 0% 9%;
-	display: inline-block;
-	width: 0;
-	height: 0;
-	border-top: 40px solid #ff3a3a;
-	border-left: 30px solid transparent;
-	border-right: 30px solid transparent; */
 }
 .menu_arrow_1{
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
     border-top: 2px solid ;
     border-right: 2px solid ;
     transform:rotate(135deg);
-    margin: -20px 0px 0px 19px;
+    margin: -20px 0px 0px 22px;
     
 }
 .menu_arrow_2{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-top: 2px solid ;
     border-right: 2px solid ;
     transform:rotate(135deg);
-    margin: -20px 0px 0px 19px;
+    margin: -15px 0px 0px 24px;
     
 }
 .menu_arrow_3{
-    width: 30px;
+    /* width: 30px;
     height: 30px;
     border-top: 2px solid ;
     border-right: 2px solid ;
-    transform:rotate(135deg);
-    margin: -20px 0px 0px 19px;
+    transform:rotate(135deg); */
+    margin: 0px 0px 0px 15px;
     
 }
 nav{
