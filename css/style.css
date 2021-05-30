@@ -63,7 +63,7 @@ body{
 
 /* добавления выделения для более наглядного примера */
 .lnk_img_logo{
-    border: 2px solid rgb(13, 60, 248);
+    /* border: 2px solid rgb(13, 60, 248); */
 }
 .img_logo{
     max-width: 80px;
@@ -73,6 +73,57 @@ body{
     min-width: 70px;
     min-height: 70px;
     border-radius: 100%;
+    max-width: 75px;
+    max-height: 75px;
+}
+.menu_arrow_0{
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid ;
+    border-right: 2px solid ;
+    transform:rotate(135deg);
+    margin: -6px 0px 0px 19px;
+    
+    
+    /* margin-right: 60px; */
+   
+   
+    /* первый вариант */
+    /* vertical-align: middle;
+	margin: 30% 0% 0% 9%;
+	display: inline-block;
+	width: 0;
+	height: 0;
+	border-top: 40px solid #ff3a3a;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent; */
+}
+.menu_arrow_1{
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid ;
+    border-right: 2px solid ;
+    transform:rotate(135deg);
+    margin: -20px 0px 0px 19px;
+    
+}
+.menu_arrow_2{
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid ;
+    border-right: 2px solid ;
+    transform:rotate(135deg);
+    margin: -20px 0px 0px 19px;
+    
+}
+.menu_arrow_3{
+    width: 30px;
+    height: 30px;
+    border-top: 2px solid ;
+    border-right: 2px solid ;
+    transform:rotate(135deg);
+    margin: -20px 0px 0px 19px;
+    
 }
 nav{
     display: none;
