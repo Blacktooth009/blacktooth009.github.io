@@ -12,8 +12,26 @@ body{
      
 }
 
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+    /* IE10+ CSS styles go here */
+a{
+ font-family: Arial, Helvetica, sans-serif;
+}
+.ie{ 
 
+}
+.key_wrapper{
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   
+} 
 
+.key_tell{
+    flex: 0 0 50%;
+
+}
+}
 .page_wrapper{
     max-width: 300px;
     min-height: 600px;
@@ -109,7 +127,7 @@ a:link{
     text-decoration: none;
 }
 
-a:hover div.key_tell{
+div.key_tell:hover{
     /* background-color: rgb(253, 201, 123); */
     border: inset ;
    } 
