@@ -76,7 +76,32 @@ body{
     max-width: 75px;
     max-height: 75px;
 }
-.menu_arrow_0{
+.menu_border_top{
+    border-top: solid;
+    margin-top: 18px;
+    margin-left: 5px;
+    width: 60px;
+    
+}
+.menu_text{
+    margin-left: 5px;
+    font-size: 25px;
+    margin-top: -7px;
+}
+.menu_border_bottom{
+    border-bottom: solid;
+    margin-left: 5px;
+    width:  60px;
+    margin-top: -7px;
+}
+
+
+
+
+/* arrow start  */
+
+
+/* .menu_arrow_0{
     width: 30px;
     height: 30px;
     border-top: 2px solid ;
@@ -103,14 +128,12 @@ body{
     
 }
 .menu_arrow_3{
-    /* width: 30px;
-    height: 30px;
-    border-top: 2px solid ;
-    border-right: 2px solid ;
-    transform:rotate(135deg); */
+
     margin: 0px 0px 0px 15px;
     
-}
+} */
+
+/* arrow end */
 nav{
     display: none;
     border: solid 2px;
