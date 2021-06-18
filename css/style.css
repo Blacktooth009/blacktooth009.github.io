@@ -102,19 +102,24 @@ body{
 
 
 /* Menu */
-
 .header_menu{
+
+}
+.header_menu_hide{
     display: none;
-    border: solid 2px;
-    padding: 0% 10% 0% 10%; 
+    /* border: solid 2px; */
+    /* padding: 0% 10% 0% 10%;  */
 
 }
 /* Было написано для меню когда было на верху */
-/* ul{
-    margin: 0px;
+ul{
+    /* margin: 0px; */
     list-style-type: none;
-    padding: 0%;
-} */
+    /* padding: 0%; */
+}
+
+
+
 a{ color: rgb(0, 0, 0);}
 a.style_key_menu:hover{
  color: rgb(10, 36, 227);
@@ -135,6 +140,7 @@ a.style_key_menu:hover{
     justify-content: center;
    
     max-height: 260px;
+    min-height: 259px;
    
 }
 .display_content{
@@ -146,12 +152,20 @@ a.style_key_menu:hover{
     background-color: blanchedalmond;
    font-family: mk90;
 }
+
+/* Start Text for Display */
 .display_text{
     text-align: center;
     font-size: 18px;
     line-height: 150%;
 
 }
+
+.display_text_hide{
+   display: none;
+
+}
+/* End Text for Display */
 
 .key_wrapper{
     display: grid;

@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="css/style.css" />
     <!-- favicon -->
     <link rel="shortcut icon" href="img/Blacktooth1.png" type="images/x-icon" />
-
+    
     <title>BlackTooth</title>
   </head>
-
+  
   <body>
     <div class="page_wrapper">
       <header class="header_wrapper">
         <!--flex контейнер-->
-
+        
         <!-- images logo -->
         <a class="lnk_img_logo" href="/">
           <img class="img_logo" src="/img/bluetooth.png" alt="logo" />
         </a>
-<!-- menu start -->
-          <a href="#" class="style_key_menu">
-            <div class="menu_border"> 
-              <div class="menu_border_top"></div>
-              <div class="menu_text">Menu</div>
-              <div class="menu_border_bottom"></div>
-              
-           
-            </div>
-          </a>
+        <!-- menu start -->
+        <a href="#" id = "menu_button" class="style_key_menu">
+          <div class="menu_border"> 
+            <div class="menu_border_top"></div>
+            <div class="menu_text">Menu</div>
+            <div class="menu_border_bottom"></div>
+            
+            
+          </div>
+        </a>
         <!-- <nav class="header_menu">
           <ul>
             <li><a href=""> Главная</a></li>
@@ -41,66 +41,73 @@
         <!-- menu end -->
         <div class="name_page">MAIN</div>
       </header>
-
+      
       <div class="display_wrapper">
         <div class="display_content">
-          <p class="display_text">
+          <p id = "display_content_hide" class="display_text">
             Восстановление телефона &ensp; при неудачном обновлении
             Установка &ensp; Root Xposed <br>
-            И &ensp;другие&ensp; работы </p>
+            И &ensp;другие&ensp; работы 
+          </p>
+          
           <!-- Начало
-             Появление меню в дисплеи -->
-          <nav id= "menu_start" class="header_menu">
-            <ul>
-              <li><a href=""> Главная</a></li>
-              <li><a href=""> Услуги</a></li>
-              <li><a href=""> О нас</a></li>
-            </ul>
-          </nav>
-          <!-- Конец меню  -->
+            Появление меню в дисплеи -->
+            <nav id= "menu_start" class="header_menu_hide" >
+              <ul>
+                <li><a href=""> Главная</a></li>
+                <li><a href=""> Услуги</a></li>
+                <li><a href=""> О нас!</a></li>
+              </ul>
+            </nav>
+            <!-- Конец меню  -->
+          </div>
         </div>
-      </div>
-
-      <div class="ie">
-        <div class="key_wrapper">
-          <a href="">
-            <div class="key_tell key_tell_1">1</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_2">2</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_3">3</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_4">4</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_5">5</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_6">6</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_7">7</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_8">89</div>
-          </a>
-          <a href="">
-            <div class="key_tell key_tell_9">0</div>
-          </a>
+        
+        <!--  Start Flex i-explorer -->
+        <div class="ie">
+          <div class="key_wrapper">
+            <a href="">
+              <div class="key_tell key_tell_1">1</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_2">2</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_3">3</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_4">4</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_5">5</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_6">6</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_7">7</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_8">89</div>
+            </a>
+            <a href="">
+              <div class="key_tell key_tell_9">0</div>
+            </a>
+          </div>
         </div>
-      </div>
-      <footer>
-        <br />
-        <script src="js/script.js"></script>
+        
+        <!-- END flex i-explorer -->
+        
+        
+        <footer>
+          <br />
+          <script>
+            document.write(" &copy; "+ new Date().getFullYear());
+            </script>
       </footer>
     </div>
-
-
-    <div>
-    <a href="page_1.html">page_1</a>
-    </div>
+    
   </body>
-</html>
+     <script src="js/script.js"></script>
+  </html>
+  
