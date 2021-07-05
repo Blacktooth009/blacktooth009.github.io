@@ -1,35 +1,74 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- style css -->
-        
-        <link rel="stylesheet" href="/css/style_page_1.css">
-        <!-- favicon -->
-        <link rel="shortcut icon" href="/img/bluetooth.png" type="images/x-icon" />
-    <title>Page 1</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- style css -->
+
+    <link rel="stylesheet" href="/css/style_page_1.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/img/bluetooth.png" type="images/x-icon" />
+    <title>Service</title>
 </head>
+
 <body>
-    <body>
-      
-         <div class="wrapper">
-
-             <div class="windows_wrapper">
-
-                 <div class="display_wrapper">
-                    <a class="lnk_images_logo" href="/">
-                        <img class="images_logo" src="/img/bluetooth.png" alt="logo" />
-                    </a>
-                 </div>
-                 
-             </div>
-
-         </div>
-
-
+    <div class="page_wrapper">
+        <div class="header_wrapper">
+            <!--flex контейнер-->
             
-    
+            <!-- images logo -->
+            <a class="lnk_img_logo" href="/">
+                <img class="img_logo" src="/img/bluetooth.png" alt="logo" />
+            </a>
+            <!-- menu start -->
+            <a href="#" id="menu_button" class="style_key_menu">
+                <div class="menu_border">
+                    <div class="menu_border_top"></div>
+                    <div class="menu_text">Menu</div>
+                    <div class="menu_border_bottom"></div>
+                </div>
+            </a>
+            
+            <div class="name_page">SERV</div>
+        </div>
+        <div class="sensor">
+
+            <div class="display_wrapper_serv">
+                <div class="display_content_serv">
+                    <p id="display_content_hide" class="display_text">
+                        Lorem ipsum dolor sit amet.
+                    </p>
+
+                    <!-- Начало
+                                Появление меню в дисплеи -->
+                    <nav id="menu_start" class="header_menu_hide">
+                        <ul>
+                            <li><a href="/"> Главная</a></li>
+                            <li><a href="/page_1.html"> Услуги</a></li>
+                            <li><a href=""> О нас!</a></li>
+                        </ul>
+                    </nav>
+                    <!-- Конец меню  -->
+                </div>
+            </div>
+
+            <!--  Start Flex i-explorer -->
+
+            <!-- END flex i-explorer -->
+
+            <!-- <footer>
+                            <br />
+                            <script>
+                            document.write(" &copy; "+ new Date().getFullYear());
+                            </script>
+                        </footer> -->
+         </div>
+    </div>
 </body>
+
+<script src="js/script.js"></script>
+
 </html>

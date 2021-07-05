@@ -1,23 +1,9 @@
-body{
-    /* background-color:blanchedalmond; */
-}
-
-.wrapper{
-    display: flex;
-    border: solid 3px rgb(82, 255, 82);
-    margin:auto;
-    
-}
-.windows_wrapper{
-    border: solid 3px blue;
-}
-.display_wrapper{
-    /* background-color: hotpink; */
-    border: solid hotpink;
-}
-
-.images_logo{
-    
-    max-width: 50px;
-    max-height: 50px;
+.sensor{
+ border: outset;
+ max-width: 290px;
+ min-height: 590px;
+ /* justify-content: center; */
+ /* align-items: center; */
+ border-radius: 20px;
+ margin: 1%
 }
