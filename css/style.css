@@ -103,7 +103,23 @@ body{
 
 /* Menu */
 .header_menu{
+ font-size: 30px;
+margin-top: -10px;
+margin-right: 10px;
+ /* background-color: rgb(207, 207, 207); */
+ line-height: 50px;
+ 
+ 
 
+}
+.menu_main{
+    border: 1px dashed;
+    border-radius: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    margin-left: -18px;
+    background-color: rgb(255, 246, 231);
+    
 }
 .header_menu_hide{
     display: none;

@@ -21,6 +21,7 @@ function hideText() {
   displayContentEdit.classList.add("display_text_hide");
   displayMenuEdit.classList.remove("header_menu_hide");
   displayMenuEdit.classList.add("header_menu");
+  displayMenuEdit.classList.add("header_menu_service");
 
   console.log("Click key1");
   console.log(switchKey);
